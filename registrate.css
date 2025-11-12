@@ -493,6 +493,7 @@ details[open] summary::after{ transform: rotate(90deg); }
 flex-basis: 120px;
 text-align: right;
 padding-right: 15px;
+color: #000;
 }
 .registro input
 {
