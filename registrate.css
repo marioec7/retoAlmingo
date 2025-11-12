@@ -595,6 +595,7 @@ form
         text-align: right;
         padding-right: 20px;
         margin-bottom: 0;
+        color: black;
     }
 }
 /* ------------------------------------------------------------- ESTILOS DE INPUTS Y SELECTS------------------------------------------------------------------------------ --- */
@@ -697,4 +698,9 @@ form
 .terminos-checkbox label a:hover 
 {
     text-decoration: underline;
+}
+
+.terminos-checkbox label
+{
+    color: black;
 }
