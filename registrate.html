@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALMINGO</title>
+    <meta name="description" content="A web page about Almingo" />
+    <meta name="keywords" content="almingo" />
+    <link rel="stylesheet" href="registrate.css" >
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-left">
+         <img src="../ALMINGO/IMAGES/logo.png" alt="Logo de Almingo" class="header-logo">
+        </div>
+        
+        <span class="brand">LOS MINGOS</span>
+
+        <div class="header-right lang-switcher">
+            <button class="boton-ingles" id="boton-ingles" onclick="location.href='registrate.html'">English</button>
+            <button class="boton-espanol" id="boton-espanol" onclick="location.href='registrateesp.html'">Español</button>
+        </div>
+    </header>
+    <ul class="MenuNivel1">
+        <li><a href="portadaAlmingo.html">Home</a></li>
+        <li><a href="merchanAlmingo.html">Services</a></li>
+        <li><a href="gameAlmingo.html">Game</a></li>
+        <li class="activo"><a href="registrate.html">Register</a></li>
+    </ul>
+    <main>
+    <div class=game>
+        <h3>REGISTRATION</h3>
+        <p>If you want to receive exclusive offers from the company, you can register here</p>
+    <form id="idregistro" action="#" method="post">
+            <div class="registro">
+                <label for="nombre">Name:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Enter your name" required>
+            </div>
+            <div class="registro">
+                <label for="apellido1">1º Last Name:</label>
+                <input type="text" id="apellido1" name="apellido1" placeholder="Enter your first last name" required>
+            </div>
+            <div class="registro">
+                <label for="apellido2">Company (optional):</label>
+                <input type="text" id="apellido2" name="apellido2" placeholder="Enter the name of your company">
+            </div>
+            <div class="registro">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+            </div>
+            <div class="registro">
+                <label for="sexo">Gender:</label>
+                <select id="sexo" name="sexo">
+                    <option value="">-- Select --</option>
+                    <option value="masculino">Male</option>
+                    <option value="femenino">Female</option>
+                    <option value="otro">Other</option>
+                    <option value="prefiero_no_decirlo">Prefer not to say</option>
+                </select>
+            </div>
+            <div class="registro">
+                <label for="nacimiento">Date of Birth:</label>
+                <input type="date" id="nacimiento" name="nacimiento" required>
+            </div>
+            <div class="registro">
+                <label for="telefono">Phone Number:</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Enter your phone number">
+            </div>
+            <div class="preferencias-comunicacion">
+                <h3>📢 Preferencias de Comunicación</h3>
+                <p style="font-size: 0.9em; color: #666; margin-bottom: 15px;">Tell us what type of information do you want to know about:</p>
+                
+                <div class="opciones-checkbox">
+                    <input type="checkbox" id="ofertas" name="pref_ofertas" value="si" checked>
+                    <label for="ofertas">Exclusive offers and discount</label><br>
+                    
+                    <input type="checkbox" id="noticias" name="pref_noticias" value="si">
+                    <label for="noticias">Company News and Updates</label><br>
+                    
+                    <input type="checkbox" id="juegos" name="pref_juegos" value="si">
+                    <label for="juegos">Game Updates and Content</label>
+                </div>
+                <div class="terminos-checkbox">
+                    <input type="checkbox" id="aceptar_terminos" name="aceptar_terminos" required>
+                    <label for="aceptar_terminos" style="font-size: 0.9em;">I accept <a href="legalconditionsesp.html" target="_blank">términos y condiciones</a>and the privacy policy</label>
+                </div>
+            </div>
+            <div>
+                <button class="enviar" id="registro-btn" type="submit">ENVIAR</button>
+            </div>
+        </form>
+     <footer>
+        <a href="aboutus.html"> About us</a>
+        <a href="legalconditions.html"> Legal conditions</a>
+        <a href="contact.html"> Contact</a>
+    </footer>
+    </main>
+</body>
+</html>

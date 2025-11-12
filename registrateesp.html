@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALMINGO</title>
+    <meta name="description" content="A web page about Almingo" />
+    <meta name="keywords" content="almingo" />
+    <link rel="stylesheet" href="registrate.css" >
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-left">
+         <img src="../ALMINGO/IMAGES/logo.png" alt="Logo de Almingo" class="header-logo">
+        </div>
+        
+        <span class="brand">LOS MINGOS</span>
+
+        <div class="header-right lang-switcher">
+            <button class="boton-ingles" id="boton-ingles" onclick="location.href='registrate.html'">English</button>
+            <button class="boton-espanol" id="boton-espanol" onclick="location.href='registrateesp.html'">Español</button>
+        </div>
+    </header>
+    <ul class="MenuNivel1">
+        <li><a href="portadaAlmingoesp.html">Inicio</a></li>
+        <li><a href="merchanAlmingoesp.html">Servicios</a></li>
+        <li><a href="gameAlmingoesp.html">Juego</a></li>
+         <li class="activo"><a href="registrateesp.html">Registrarse</a></li>
+    </ul>
+    <main>
+    <div class=game>
+        <h3>REGISTRO</h3>
+        <p>Si quieres obtener ofertas exclusivas de la empresa, puedes registrarte aquí</p>
+        <form id="idregistro" action="#" method="post">
+            <div class="registro">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Escriba su nombre" required>
+            </div>
+            <div class="registro">
+                <label for="apellido1">1º Apellido:</label>
+                <input type="text" id="apellido1" name="apellido1" placeholder="Escriba su primer apellido" required>
+            </div>
+            <div class="registro">
+                <label for="empresa">Empresa (opcional):</label>
+                <input type="text" id="empresa" name="empresa" placeholder="Escriba su empresa" >
+            </div>
+            <div class="registro">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="ejemplo@gmail.com" required>
+            </div>
+            <div class="registro">
+                <label for="sexo">Sexo:</label>
+                <select id="sexo" name="sexo">
+                    <option value="">-- Seleccione --</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="femenino">Femenino</option>
+                    <option value="otro">Otro</option>
+                    <option value="prefiero_no_decirlo">Prefiero no decirlo</option>
+                </select>
+            </div>
+            <div class="registro">
+                <label for="nacimiento">Fecha de nacimiento:</label>
+                <input type="date" id="nacimiento" name="nacimiento" required>
+            </div>
+            <div class="registro">
+                <label for="telefono">Nº de teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Escriba su número de teléfono">
+            </div>
+             <div class="preferencias-comunicacion">
+                <h3>📢 Preferencias de Comunicación</h3>
+                <p style="font-size: 0.9em; color: #666; margin-bottom: 15px;">Dinos qué tipo de contenido te interesa recibir por correo electrónico:</p>
+                
+                <div class="opciones-checkbox">
+                    <input type="checkbox" id="ofertas" name="pref_ofertas" value="si" checked>
+                    <label for="ofertas">Ofertas Exclusivas y Descuentos</label><br>
+                    
+                    <input type="checkbox" id="noticias" name="pref_noticias" value="si">
+                    <label for="noticias">Novedades de la Empresa y Noticias</label><br>
+                    
+                    <input type="checkbox" id="juegos" name="pref_juegos" value="si">
+                    <label for="juegos">Actualizaciones y Contenido del Juego</label>
+                </div>
+                <div class="terminos-checkbox">
+                    <input type="checkbox" id="aceptar_terminos" name="aceptar_terminos" required>
+                    <label for="aceptar_terminos" style="font-size: 0.9em;">Acepto los <a href="legalconditionsesp.html" target="_blank">términos y condiciones</a> y la Política de Privacidad.</label>
+                </div>
+            </div>
+            <div>
+                <button class="enviar" id="registro-btn" type="submit">ENVIAR</button>
+            </div>
+        </form>
+        <footer>
+            <a href="aboutusesp.html">Sobre Nosotros</a>
+            <a href="legalconditionsesp.html">Condiciones Legales</a>
+            <a href="contactesp.html">Contacto</a>
+    </footer>
+    </main>
+</body>
+</html>
