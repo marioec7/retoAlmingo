@@ -343,9 +343,3 @@ a:focus, button:focus, .btn:focus{
     .MenuNivel1, footer, .hero-visual, .skip-link, .header-left, .header-right{ display:none !important; }
     body{ background: #fff; color: #000; }
 }
-
-
-.content-card a
-{
-    text-decoration: underline;
-}
