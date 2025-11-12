@@ -7,13 +7,14 @@ D. Garantizar que las necesidades del presente se satisfagan sin comprometer la 
 2. ¿Cuántos pilares o dimensiones principales tiene el desarrollo sostenible?
 A. Cuatro: ambiental, social, económico y cultural.
 B. Dos: ecológico y económico.
-C. Uno: solo el medioambiental.
-D. Tres: ambiental, social y económico. **(CORRECTA)**
+C. Tres: ambiental, social y económico. **(CORRECTA)**
+D. Uno: solo el medioambiental.
+
 
 3. ¿Cuál de las siguientes es una fuente de energía renovable?
 A. Gas natural.
-B. Petróleo.
-C. Carbón.
+B. Carbón.
+C. Petróleo.
 D. Eólica. **(CORRECTA)**
 
 4. ¿Qué acción corresponde a la 'R' de Reducir en la regla de las 3 R's (Reducir, Reutilizar, Reciclar)?
